@@ -1,10 +1,3 @@
-async function get_profiles() {
-  const request = await fetch("profiles.json");
-  const response = await request.json();
-
-  return response;
-}
-
 const people = get_profiles();
 let data = [
   {
